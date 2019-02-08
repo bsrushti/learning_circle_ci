@@ -1,0 +1,27 @@
+{
+  "name": "learning_circle_ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "util.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsrushti/learning_circle_ci.git"
+  },
+  "author": "bsrushti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsrushti/learning_circle_ci/issues"
+  },
+  "homepage": "https://github.com/bsrushti/learning_circle_ci#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nyc": "^13.2.0"
+  }
+}
