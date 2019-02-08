@@ -41,12 +41,11 @@ jobs:
 #         path: coverage
 #         prefix: coverage
 
-# workflows:
-#   version: 2
-#   unit_and_integration:
-#     jobs:
-#     - unit
-#     - integration:
-#         requires:
-#         - unit
-
+workflows:
+  version: 2
+  unit_and_integration:
+    jobs:
+      - unit
+      - integration:
+          requires:
+            - unit

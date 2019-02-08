@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "nyc --reporter=lcov mocha",
+    "unit": "nyc --reporter=lcov mocha test/unitTest.js",
+    "integration": "nyc --reporter=lcov mocha test/integrationTest.js"
   },
   "repository": {
     "type": "git",
