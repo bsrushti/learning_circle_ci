@@ -42,7 +42,7 @@ jobs:
           prefix: coverage
   build:
     machine:
-      image: circleci/node:8.13.0
+      image: ubuntu-2004:202010-01
     steps:
       - checkout
       - run:
